@@ -4,5 +4,6 @@ import svgr from "vite-plugin-svgr";
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: 'https://webiks.github.io/svg-example/',
   plugins: [react(), svgr()],
 })
